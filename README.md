@@ -1,6 +1,6 @@
 # learn_something
 ## Python
-### 装饰器练习题
+### 装饰器
 
 - 实现一个装饰器，打印函数的输入参数和返回值。
 <br>代码实现：[about_python/print_input_output.py](https://github.com/astrid77/learn_something/blob/f4ebc51687f7ad6dd12ac533f92dbcd1122998de/about_python/print_input_output.py)
@@ -26,9 +26,27 @@
 - 元类+装饰器联动
 <br>创建一个装饰器@register_plugin，将被装饰类自动注册到全局插件系统中（通过元类实现），同时确保装饰器可以叠加在其他装饰器之上而不破坏元类逻辑。
 <br>代码实现：`about_python/day0329_register_plugin.py`
-
-### 综合练习
-
 - 测试数据处理：`about_python/day0330_progress_test_results.py`
-- 测试框架基类设计:`about_python/day0330_base_test_class.py`
-- 测试失败重试：`about_python/day0330_test_failed_retry.py`
+- 测试框架基类设计：`about_python/day0330_base_test_class.py`
+- 测试失败重试:`about_python/day0330_test_failed_retry.py`
+
+### 元类
+
+- 练习 1：强制类名规范 `day0408_check_class_name.py`
+- 练习 2：自动添加版本号 `day0408_add_version.py`
+- 练习 3：收集测试方法 `day0408_test_collector_meta.py`
+- 练习 4：统计测试用例数量 `day0408_test_stats_meta.py`
+- 练习 5：单例测试基类 `day0408_singleton_meta.py`
+- 练习 6：动态生成测试方法 `day0408_dynamic_test_meta.py`
+- 练习 7：测试用例装饰器 `day0408_decorator_test_meta.py`
+- 练习 8：测试依赖管理 `day0408_dependency_meta.py`
+- 练习 9：简易测试框架 `day0408_test_framework.py`
+- 练习 10：模仿 pytest 的标记系统 `day0412_marker_meta.py`
+
+### 生成器
+
+- 创建一个生成器函数，生成1到10000的整数，每次生成平方值 `day0412_number_generator.py`
+- 用Faker创建生成测试数据的生成器 `day0412_create_test_data_by_faker.py`
+- 对比生成器与列表推导式的内存消耗 `day0412_memory_profiler.py`
+- 优化大数据生成过程 `day0412_chunked_data_generator.py`
+- 生成1GB测试数据文件 `day0412_data_generator_gb.py`
