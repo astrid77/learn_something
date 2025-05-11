@@ -607,6 +607,8 @@ def test_function(mydata):
 
 ### pytest_addoption
 
+pytest_addoption 是一个用于添加自定义命令行参数的钩子函数
+
 - pytest_addoption 会在 pytest 启动时 的初始化阶段被调用
 - pytest_addoption 必须定义在 conftest.py 或 插件文件 中，才能被 pytest 发现。
 - 命令行参数 > pytest.ini 配置 > 代码中的默认值
