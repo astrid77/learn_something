@@ -55,3 +55,11 @@
 4. 环境叠加+嵌套访问
 5. 实现配置项类型校验
 6. 实现环境变量覆盖
+
+## pytest
+
+### pytest_addoption
+
+1. pytest 参数机制，自定义装置：使用request.config.getoption获取参数
+2. pytest 参数机制，自定义装置：使用pytestconfig.getoption获取参数
+3. pytest 参数机制，自定义装置：结合pytest.ini获取参数
