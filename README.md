@@ -63,3 +63,17 @@
 1. pytest 参数机制，自定义装置：使用request.config.getoption获取参数
 2. pytest 参数机制，自定义装置：使用pytestconfig.getoption获取参数
 3. pytest 参数机制，自定义装置：结合pytest.ini获取参数
+
+### pytest_collection_modifyitems
+
+1. 根据标签跳过特定环境用例
+2. 根据 `--tags=...` 的参数查找标签，执行对应用例，实现标签交集/并集过滤
+
+### hooks
+
+1. 多个hooks函数简单使用示例
+
+### plugins
+
+1. 插件开发基础（示例：计时插件）
+2. 控制多个插件的执行顺序
